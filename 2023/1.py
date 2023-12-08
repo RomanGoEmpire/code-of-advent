@@ -7,6 +7,7 @@ def get_digits(string):
 
 
 def replace_string_digits(string):
+    # Mapping is weird because a letter can be used both in a word and a digit (e.g. "eighthree" = "eight" and "three")
     digit_mapping = {
         "one": "o1ne",
         "two": "t2wo",
