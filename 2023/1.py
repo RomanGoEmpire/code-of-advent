@@ -26,7 +26,6 @@ def replace_string_digits(string):
 
 
 with open("1.txt", "r") as f:
-    print(f)
     lines = f.readlines()
     all_digits = []
     for line in lines:
